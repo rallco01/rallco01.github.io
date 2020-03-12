@@ -1,12 +1,10 @@
 body
 {
-	//background-color: #C6A477;
 	padding: 10px 2.5% 10px 2.5%;
 	color: #5c5d5f
 }
 .contentPanel
 {
-	//background-color: #ABD1DC;
 	border-radius: 30px;
 	display: inline-block;
 	width: 100%;
