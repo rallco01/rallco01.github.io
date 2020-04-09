@@ -1,7 +1,7 @@
 body
 {
 	padding: 10px 2.5% 10px 2.5%;
-	color: #5c5d5f
+	color: #5c5d5f;
 }
 .contentPanel
 {
@@ -22,6 +22,7 @@ body
 	overflow-x: scroll;
 	overflow-y: hidden;
 	width: 100%;
+	display: inline-block;
 }
 
 .panelTitle
@@ -37,11 +38,11 @@ body
 .cocktailCard
 {
 	color: black;
-	display: inline-block;
 	background-color: #dadad2;
 	display: inline-block;
 	white-space: normal;
-	width: 30%;
+	width:30vw;
+	height: 100%
 	margin: 5px;
 }
 .cocktailCard > div

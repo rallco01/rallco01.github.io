@@ -1,0 +1,76 @@
+body
+{
+
+}
+
+.ImageLinks
+{
+	width: 84vw;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	
+	//width is height+width+(4*margin) of link class
+}
+.Link
+{
+	position: relative;
+	width: 40vw;
+	height: 40vw;
+	float: left;
+	background-color: black;
+	margin: 1vw;
+}
+.Image
+{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.LinkTitle
+{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+.text 
+{
+	background-color: green;
+	color: white;
+}
+
+.Link:hover .Image
+{
+	opacity: 0.3;
+}
+.Link:hover .LinkTitle
+{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.menuBarSub
+{
+	height:100px;
+	width: 100%;
+}
+.SolelyToPositionDivUnderOtherDiv
+{
+	width: 100%;
+}

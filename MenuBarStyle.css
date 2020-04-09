@@ -1,0 +1,41 @@
+.MenuBar
+{
+	background-color: FFA874;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	display: inline-block;
+}
+.TabBar
+{
+	display: inline-block;
+	float: right;
+}
+.MenuButton
+{
+	background-color: FFB894;
+	float: left;
+	padding: 10px;
+	
+}
+
+.MenuButton:hover
+{
+	background-color: EEA783;
+}
+.MenuButton:active
+{
+	background-color: EE9763;
+}
+
+#CurrentTab
+{
+	background-color: EE9763;
+}
+#PageTitle
+{
+	float: left;
+	height: 50px;
+	font-size: 50;
+	font-weight:50;
+	vertical-align: middle;
+}
