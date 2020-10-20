@@ -1,14 +1,13 @@
-.MenuBar
-{
+.MenuBar {
 	background-color: #FFA874;
 	width: 100%;
-	padding: 10px 0 10px 0;
-	display: inline-block;
+	padding: 5px;
+	display: flex;
 }
 .TabBar
 {
 	display: inline-block;
-	float: right;
+	justify-self: end;
 }
 .MenuButton
 {
@@ -33,9 +32,10 @@
 }
 #PageTitle
 {
+	color: black;
 	float: left;
 	height: 50px;
-	font-size: 50;
+	font-size: 50px;
 	font-weight:50;
 	vertical-align: middle;
 }
