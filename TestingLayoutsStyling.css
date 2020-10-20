@@ -4,13 +4,13 @@ body {
 }
 
 .TitleBox {
-    height: 10vh;
+    display: flex;
     min-height: 75px;
     background-color: #FFABAB;
 }
 
 .AboutBox {
-    height: 30vh;
+    height: 25vh;
     min-height: 500px;
     background-color: #85E3FF;
 
