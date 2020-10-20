@@ -1,6 +1,5 @@
-function testingJSFile()
-{
-	alert("Test");
+function preload() {
+	readCocktailJSONFile();
 }
 
 function readCocktailJSONFile()
@@ -24,9 +23,10 @@ function readCocktailJSONFile()
 			cocktailIngredientAmounts.push(obj.Cocktails[i].Ingredients[j].Amount);
 		}
 		//continue storing information to be referenced
+		cocktailDesc = obj.Cocktails[i].Description;
 		cocktailMethod = obj.Cocktails[i].Method;
 		cocktailImage = obj.Cocktails[i].Image;
-
+		cocktailImageCredit = obj.Cocktails[i].ImageCredits;
 		//create new element IDs based on cocktail names, as each cocktail should have a unique name
 		cardDivID = cocktailName + ' Card'
 		imageDivID = cocktailName + ' Image';
@@ -50,6 +50,7 @@ function readCocktailJSONFile()
 
 		//place information in textbox div
 		textBoxDiv.innerHTML += '<h1>' + cocktailName + '</h1>';
+		textBoxDiv.innerHTML += '<p>' + cocktailDesc + '</p>';
 		textBoxDiv.innerHTML += '<h2>Ingredients</h2>';
 
 		//create list of ingredients
@@ -63,7 +64,8 @@ function readCocktailJSONFile()
 
 		textBoxDiv.innerHTML += '<h2>Method</h2>';
 		textBoxDiv.innerHTML += '<p>' + cocktailMethod + '</p>';
+
+
+		textBoxDiv.innerHTML += '<br/><p>' + cocktailImageCredit + '</p>';
 	}
 }
-
-

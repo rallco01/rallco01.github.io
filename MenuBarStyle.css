@@ -1,6 +1,6 @@
 .MenuBar
 {
-	background-color: FFA874;
+	background-color: #FFA874;
 	width: 100%;
 	padding: 10px 0 10px 0;
 	display: inline-block;
@@ -12,7 +12,7 @@
 }
 .MenuButton
 {
-	background-color: FFB894;
+	background-color: #FFB894;
 	float: left;
 	padding: 10px;
 	color: black;
@@ -20,16 +20,16 @@
 
 .MenuButton:hover
 {
-	background-color: EEA783;
+	background-color: #EEA783;
 }
 .MenuButton:active
 {
-	background-color: EE9763;
+	background-color: #EE9763;
 }
 
 #CurrentTab
 {
-	background-color: EE9763;
+	background-color: #EE9763;
 }
 #PageTitle
 {

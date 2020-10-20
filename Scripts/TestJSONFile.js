@@ -2,6 +2,7 @@ var DATA = {
   "Cocktails" : [
     {
       "Name": "Blue Island Iced Tea",
+      "Description": "The Blue Island Iced Tea is a simple modification of the Long Island Iced tea, simply replacing the triple sec with blue curacao. Due to the similar taste profiles, the taste of the drink isn't affected, however the result is a drink which naturally creates beautifully contrasted layers, while still remaining a tasty classic",
       "Ingredients": [
         {
           "Name": "Vodka",
@@ -37,7 +38,8 @@ var DATA = {
         }
       ],
       "Method": "In a shaker, combine all the spirits, lemon and lime juice and shake until properly chilled, pour into a highball glass and top with coke. Optionally, garnish with lemon wheel.",
-      "Image": "CocktailPhotos\\BlueIslandIcedTea.jpg"
+      "Image": "CocktailPhotos\\BlueIslandIcedTea.jpg",
+      "ImageCredits": "This horrible photo was taken by Ronin on a crappy smart phone, more professional photos to come"
     }
   ]
 }
