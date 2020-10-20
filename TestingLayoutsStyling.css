@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.TitleBox {
+    height: 10vh;
+    min-height: 75px;
+    background-color: #FFABAB;
+}
+
+.AboutBox {
+    height: 30vh;
+    min-height: 500px;
+    background-color: #85E3FF;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    grid-column-gap: 20px;
+}
+.CardBox {
+    width: 100%;
+    overflow-y: hidden;
+
+    background-color: #85E3FF;
+    display: flex;
+}
+
+.ProfileImage{
+    background-color: #Aff8DB;
+}
+.AboutDesc {
+    background-color: #DCD3FF;
+}

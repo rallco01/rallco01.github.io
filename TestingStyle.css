@@ -3,12 +3,14 @@
 }
 /*Attributes for Cocktail Card objects*/
 .Card {
-    width: 400px;
-    height: 400px;
+    position: relative;
+    width: 45vh;
+    min-width: 450px;
+    height: 45vh;
+    min-height:450px;
     background-color: black;
     color: white;
     margin: 10px;
-    float: left;
 }
 .TextBox {
     position: relative;
