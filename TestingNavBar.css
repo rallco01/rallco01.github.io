@@ -75,6 +75,9 @@
     .nav-link{
         justify-content: center;
     }
+    .nav-item:first-child{
+        display: none;
+    }
     main{
         margin: 0;
     }
