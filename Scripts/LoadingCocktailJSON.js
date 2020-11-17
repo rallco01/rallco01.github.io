@@ -65,7 +65,6 @@ function readCocktailJSONFile()
 		textBoxDiv.innerHTML += '<h2>Method</h2>';
 		textBoxDiv.innerHTML += '<p>' + cocktailMethod + '</p>';
 
-
 		textBoxDiv.innerHTML += '<br/><p>' + cocktailImageCredit + '</p>';
 	}
 }

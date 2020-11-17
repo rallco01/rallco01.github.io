@@ -1,18 +1,32 @@
-body {
+/*stuffs needed, i.e variables to use multiple times and page setup*/
+:root {
+    font-size: 16px;
+    --cardBoxBG: #85E3FF;
+    --titleBoxBG: #FFABAB;
+}
+body{
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+main {
     display: grid;
     grid-row-gap: 20px;
+    margin-left: 5rem;
 }
 
+/*content stuffs*/
 .TitleBox {
     display: flex;
     min-height: 75px;
-    background-color: #FFABAB;
+    background-color: var(--titleBoxBG);
 }
 
 .AboutBox {
     height: 25vh;
     min-height: 500px;
-    background-color: #85E3FF;
+    background-color: var(--cardBoxBG);
 
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -22,9 +36,8 @@ body {
 .CardBox {
     width: 100%;
     overflow-y: hidden;
-    background-color: #85E3FF;
+    background-color: var(--cardBoxBG);
     display: flex;
-    padding: 10px;
 }
 
 .ProfileImage{
