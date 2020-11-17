@@ -60,7 +60,7 @@
     transform: rotate(-45deg)
 }
 /*nav bar for small screens*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-aspect-ratio: 16/9){
     .navbar{
         bottom: 0;
         width: 100vw;
@@ -80,7 +80,7 @@
     }
 }
 /*nav bar for large screens*/
-@media only screen and (min-width: 600px){
+@media only screen and (min-aspect-ratio: 16/9){
     .navbar{
         top: 0;
         width: 5rem;
